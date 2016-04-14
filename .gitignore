@@ -1,0 +1,12 @@
+.Xauthority
+.bash_history
+.bash_logout
+.bash_profile
+.cache/
+.gitconfig
+.lesshst
+.mozilla/
+.ssh/
+.surfraw.conf
+.viminfo
+wp.png
