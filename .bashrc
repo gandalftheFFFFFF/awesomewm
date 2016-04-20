@@ -9,3 +9,4 @@ alias l='ls --color=auto'
 alias ls='ls --color=auto'
 alias ll='ls -Flah --color=auto'
 PS1='[\u@\h \W]\$ '
+screenfetch

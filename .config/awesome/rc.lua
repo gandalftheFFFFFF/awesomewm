@@ -81,7 +81,7 @@ end
 -- {{{ Tags
 -- Define a tag table which hold all screen tags.
 tags = {
-	names = { "main", "www", 3, 4, 5, 6, 7 ,8, 9 }
+	names = { "term", "www", 3, 4, 5, 6, 7 ,8, 9 }
 }
 for s = 1, screen.count() do
     -- Each screen has its own tag table.
@@ -224,7 +224,7 @@ globalkeys = awful.util.table.join(
 			awful.prompt.run({ prompt = "Search: "},
 			mypromptbox[mouse.screen].widget,
 			function (input)
-			awful.util.spawn("firefox https://duckduckgo.com/?q=" .. input)
+			awful.util.spawn("firefox https://duckduckgo.com/?q=" .. string.gsub(input, " ", "%%20"))
 			end, nil
 			)
 		end
