@@ -10,3 +10,11 @@
 .surfraw.conf
 .viminfo
 wp.png
+.config/dconf/
+.config/enchant/
+.config/gedit/
+.config/htop/
+.local/
+.vim/
+.vimrc
+test/
